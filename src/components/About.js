@@ -17,8 +17,8 @@ const About = () => {
         </div>
         <div className="right_part">
           <div className="right_in">
-            <h3 className="fn__maintitle" data-text="The Rise of Legends">
-              The Rise of OptiNauts
+            <h3 className="fn__maintitle" data-text="Story of OptiNauts">
+              Story of OptiNauts
             </h3>
             <div className="fn_cs_divider">
               <div className="divider">
@@ -28,7 +28,16 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-              3000 Nauts, pioneering exploration of DeFi protocols on Optimism L2.🔴 35% PGF
+              The OptiNauts are an NFT collection on Optimism L2, focused around onboarding and educating DeFi & Web3 to new and existing users.
+              We'll be launching a learn2earn quiz along with other incentivized quests to ready our community to participate.
+              This is just one of many examples of utility to provide to our holders & community.
+              </p>
+              <p>
+              The inspiration of the name “OptiNauts” came from the art, love for sci-fi and a show my daughter watched called "Octonauts".
+              I grew up loving Sci-Fi movies like Star Wars and games like Halo spending countless hours watching and playing them.
+              A lot of my art and the music I’ve worked on, uses ‘space’ as a metaphor of discovering and overcoming, solving the problems at hand.
+              The idea behind OptiNauts is a community that pioneers DeFi protocols, backed with education and resources, 
+              while solving dilemmas with onboarding through the attractiveness of a welcoming community, web3 & NFTs.
               </p>
             </div>
             <a
@@ -58,32 +67,15 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-                As the first hero of the Meta Legends, collection has over 9,999
-                unique skins drawn from the different missions and challenges he
-                faced throughout his life.
+              I'm very big on participation and self-custody. I also don't promote trading or unhealthy habits.
+              I want to educate users about why crypto and blockchain are here and the use-cases/possibilities 
+              they provide as well as how to participate safely and responsibly, starting with wallet security. 
+              I always wanted to start my own project, waited for a good enough reason and felt 
+              @optimismFND to be a great match in terms of the "Public Goods" philosophy and incentives around the ecosystem. 
               </p>
               <p>
-                The artwork has been hand-drawned by Robert Green in the
-                traditional anime style and composited by Layla Efiyo.
-              </p>
-              <p>
-                Curabitur pharetra velit eget dignissim varius. In vulputate
-                elit at tortor pellentesque, non pulvinar neque consequat.
-                Aenean tristique odio in libero tincidunt maximus. Nulla
-                pharetra viverra dolor ut blandit. Cras finibus vel tortor eget
-                lacinia. Pellentesque interdum elit non lacinia faucibus. Morbi
-                nec felis auctor, tincidunt lacus sit amet, iaculis ipsum.
-                Phasellus tempus sit amet justo et feugiat. Duis blandit semper
-                lorem, egestas euismod ligula pharetra ac. Sed porta lorem eget
-                neque bibendum, eget euismod justo mollis.
-              </p>
-              <p>
-                Donec tristique porttitor sem, eget fermentum elit varius nec.
-                Donec ut orci ipsum. Morbi efficitur felis eget dapibus
-                fermentum. Phasellus sed tellus volutpat, hendrerit leo non,
-                sollicitudin neque. Etiam ac lacus quam. Vivamus suscipit nisl
-                tellus, at congue odio commodo at. Cras ante enim, sodales at
-                pretium et, tempus at libero.
+              I collaborated w/ @MareMartian on the artwork. 
+              (Amazing, underrated artist that’s done a lot of art for me in the past like project covers & characters usually around a space).
               </p>
             </div>
             <Link href="/nft-single">
