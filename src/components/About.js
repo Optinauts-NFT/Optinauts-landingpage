@@ -6,13 +6,13 @@ const About = () => {
       <div className="fn_cs_about">
         <div className="left_part">
           <div className="img">
-            <div className="img_in" data-bg-img="/img/about/1.jpg">
+            <div className="img_in" data-bg-img="/img/slider/6.webp">
               <img src="/img/1x1.jpg" alt="" />
             </div>
           </div>
           <div className="bg_overlay">
             <div className="bg_color" />
-            <div className="bg_image" data-bg-img="/img/about/bg.jpg" />
+            <div className="bg_image" data-bg-img="/img/slider/9.webp" />
           </div>
         </div>
         <div className="right_part">

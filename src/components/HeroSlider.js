@@ -139,7 +139,7 @@ const HeroSlider = () => {
                 <div className="item">
                   <img src="/img/1x1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/pic1.jpg" />
+                    <div className="img" data-bg-img="/img/slider/1.webp" />
                   </div>
                 </div>
               </li>
@@ -147,7 +147,7 @@ const HeroSlider = () => {
                 <div className="item">
                   <img src="/img/1x1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/pic1.jpg" />
+                    <div className="img" data-bg-img="/img/slider/2.webp" />
                   </div>
                 </div>
               </li>
@@ -161,7 +161,7 @@ const HeroSlider = () => {
                     <img src="/svg/play.svg" alt="" className="fn__svg" />
                   </a>
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/pic1.jpg" />
+                    <div className="img" data-bg-img="/img/slider/3.webp" />
                   </div>
                 </div>
               </li>
@@ -169,7 +169,7 @@ const HeroSlider = () => {
                 <div className="item">
                   <img src="/img/1x1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/pic1.jpg" />
+                    <div className="img" data-bg-img="/img/slider/4.webp" />
                   </div>
                 </div>
               </li>
@@ -177,7 +177,7 @@ const HeroSlider = () => {
                 <div className="item">
                   <img src="/img/1x1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/pic1.jpg" />
+                    <div className="img" data-bg-img="/img/slider/5.webp" />
                   </div>
                 </div>
               </li>
@@ -185,7 +185,7 @@ const HeroSlider = () => {
                 <div className="item">
                   <img src="/img/1x1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/pic1.jpg" />
+                    <div className="img" data-bg-img="/img/slider/6.webp" />
                   </div>
                 </div>
               </li>
@@ -193,7 +193,7 @@ const HeroSlider = () => {
                 <div className="item">
                   <img src="/img/1x1.jpg" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/slider/pic1.jpg" />
+                    <div className="img" data-bg-img="/img/slider/7.webp" />
                   </div>
                 </div>
               </li>

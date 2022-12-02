@@ -54,48 +54,48 @@ const Collection = () => {
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/1.jpg"
+                    data-bg-img="/img/slider/7.webp"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/1.jpg" />
+              <input type="hidden" defaultValue="img/slider/7.webp" />
             </div>
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/2.jpg"
+                    data-bg-img="/img/slider/8.webp"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/2.jpg" />
+              <input type="hidden" defaultValue="img/slider/8.webp" />
             </div>
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/3.jpg"
+                    data-bg-img="/img/slider/9.webp"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/3.jpg" />
+              <input type="hidden" defaultValue="img/slider/9.webp" />
             </div>
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/4.jpg"
+                    data-bg-img="/img/slider/10.webp"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/4.jpg" />
+              <input type="hidden" defaultValue="img/slider/10.webp" />
             </div>
           </div>
           <div className="collection_bottom">
@@ -104,48 +104,48 @@ const Collection = () => {
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/5.jpg"
+                    data-bg-img="/img/slider/2.webp"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/5.jpg" />
+              <input type="hidden" defaultValue="img/slider/2.webp" />
             </div>
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/6.jpg"
+                    data-bg-img="/img/slider/3.webp"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/6.jpg" />
+              <input type="hidden" defaultValue="img/slider/3.webp" />
             </div>
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/7.jpg"
+                    data-bg-img="/img/slider/4.webp"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/7.jpg" />
+              <input type="hidden" defaultValue="img/slider/4.webp" />
             </div>
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/8.jpg"
+                    data-bg-img="/img/slider/5.webp"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/8.jpg" />
+              <input type="hidden" defaultValue="img/slider/5.webp" />
             </div>
           </div>
         </div>
