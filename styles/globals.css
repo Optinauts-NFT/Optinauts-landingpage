@@ -1,0 +1,17 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.metaportal_fn_leftnav .nav_holder .active ~ .sub-menu {
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.metaportal_fn_leftnav .nav_holder .active ~ .sub-menu::-webkit-scrollbar {
+  width: 0px;
+}
+#ripple {
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
