@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { connect } from "react-redux";
 import Layout from "../../src/layout/Layout";
 import { getNfts, getSingleNft } from "../../src/redux/actions/nfts";
+
 const Nft = ({ getSingleNft, nft, getNfts, nfts }) => {
   const router = useRouter();
   const { id } = router.query;
@@ -138,6 +139,28 @@ const Nft = ({ getSingleNft, nft, getNfts, nfts }) => {
                 <p>
                 Join a community of experienced DeFi Users, ALL WELCOME.
                 </p>
+                {/* mintplex */}
+                <div 
+                  id='rampp-minting-container-0c3ee588-a457-474d-b7b5-aebdcc40806b' 
+                  className='rampp-minting-container'>
+                  <button
+                    id='rampp-minting-button-0c3ee588-a457-474d-b7b5-aebdcc40806b'
+                    className='rampp-minting-button' 
+                    data-merkle-proof-uri='https://us-central1-nft-rampp.cloudfunctions.net/allowlist/YfJU183fMDSD420PZwxL/merkle/verify'
+                    data-styles='eyJvcGVuIjp7InRleHQiOiJNaW50Iiwic3R5bGVzIjoiYm9yZGVyOm5vbmU7d2lkdGg6IDE1cmVtO3BhZGRpbmc6MC41cmVtO2ZvbnQtc2l6ZTogMS4xMjVyZW07bGluZS1oZWlnaHQ6IDEuNzVyZW07dGV4dC1hbGlnbjogY2VudGVyO2N1cnNvcjogcG9pbnRlcjtib3JkZXItcmFkaXVzOjAuMzc1cmVtO2NvbG9yOiNGRkZGRkY7YmFja2dyb3VuZC1jb2xvcjojNTMyNGZmOyJ9LCJwYXVzZWQiOnsidGV4dCI6Ik1pbnQlMjBDbG9zZWQiLCJzdHlsZXMiOiJib3JkZXI6bm9uZTt3aWR0aDogMTVyZW07cGFkZGluZzowLjVyZW07Zm9udC1zaXplOiAxLjEyNXJlbTtsaW5lLWhlaWdodDogMS43NXJlbTt0ZXh0LWFsaWduOiBjZW50ZXI7Y3Vyc29yOiBwb2ludGVyO2JvcmRlci1yYWRpdXM6MC4zNzVyZW07Y29sb3I6IzY3NjU2NTtiYWNrZ3JvdW5kLWNvbG9yOiNDQ0RCREM7Y3Vyc29yOm5vdC1hbGxvd2VkOyJ9LCJzdXBwbHlSZWFjaGVkIjp7InRleHQiOiJBbGwlMjBUb2tlbnMlMjBNaW50ZWQhIiwic3R5bGVzIjoiYm9yZGVyOm5vbmU7d2lkdGg6IDE1cmVtO3BhZGRpbmc6MC41cmVtO2ZvbnQtc2l6ZTogMS4xMjVyZW07bGluZS1oZWlnaHQ6IDEuNzVyZW07dGV4dC1hbGlnbjogY2VudGVyO2N1cnNvcjogcG9pbnRlcjtib3JkZXItcmFkaXVzOjAuMzc1cmVtO2NvbG9yOiNmZjAwMDA7YmFja2dyb3VuZC1jb2xvcjojZmZiOGI4O2N1cnNvcjpub3QtYWxsb3dlZDsifSwiZXJyb3IiOnsidGV4dCI6Ik1pbnRpbmcgVW5hdmFpbGFibGUiLCJzdHlsZXMiOiJib3JkZXI6bm9uZTt3aWR0aDogMTVyZW07cGFkZGluZzowLjVyZW07Zm9udC1zaXplOiAxLjEyNXJlbTtsaW5lLWhlaWdodDogMS43NXJlbTt0ZXh0LWFsaWduOiBjZW50ZXI7Y3Vyc29yOiBwb2ludGVyO2JvcmRlci1yYWRpdXM6MC4zNzVyZW07Y29sb3I6I2ZmMDAwMDtiYWNrZ3JvdW5kLWNvbG9yOiNmZmI4Yjg7Y3Vyc29yOm5vdC1hbGxvd2VkOyJ9LCJjbGFpbVRleHQiOnsidGV4dCI6bnVsbCwic3R5bGVzIjoiY29sb3I6IHJnYmEoMTU2LCAxNjMsIDE3NSk7Zm9udC1zaXplOiAwLjc1cmVtO2xpbmUtaGVpZ2h0OiAxcmVtO3RleHQtYWxpZ246IGNlbnRlcjtwYWRkaW5nLXRvcDogMC4yNXJlbTtwYWRkaW5nLWJvdHRvbTogMC4yNXJlbTttYXJnaW46MDtmb250LWZhbWlseTpzYW5zLXNlcmlmOyJ9LCJxdWFudGl0eSI6eyJ0ZXh0IjpudWxsLCJzdHlsZXMiOiJ3aWR0aDo0MHB4O2NvbG9yOiM1MzI0ZmY7Ym9yZGVyLXN0eWxlOnNvbGlkO2JvcmRlci13aWR0aDoxcHg7Ym9yZGVyLWNvbG9yOiM1MzI0ZmY7Ym9yZGVyLXJhZGl1czowLjM3NXJlbTtmb250LXNpemU6MS4zcmVtO3RleHQtYWxpZ246Y2VudGVyOyJ9LCJtaW50TWVzc2FnZSI6IiJ9'
+                    data-abi-link="https://firebasestorage.googleapis.com/v0/b/nft-rampp.appspot.com/o/solidity_outputs%2FYfJU183fMDSD420PZwxL%2FOptiNautsContract_data-f9850c9d-93b1-4be5-81a7-800242e02505.json?alt=media"
+                    data-redirect="null"
+                    data-contract-address="0x780F4D9cCa855830334deE6b38364Ab69FCd3047"
+                    data-show-claim-count="true"
+                    data-network="optimism"
+                    data-format="multi"
+                    data-erc20-payments=""
+                    data-redemption-contracts=""
+                    data-use-winter="false"
+                    data-winter-project-id="null">
+                  </button>
+                </div>
+                {/* !mintplex */}
               </div>
               <div className="view_on">
                 <ul>
@@ -145,13 +168,13 @@ const Nft = ({ getSingleNft, nft, getNfts, nfts }) => {
                     <span>View On:</span>
                   </li>
                   <li>
-                    <a href="#">
-                      <img src="/svg/opensea.svg" alt="" className="fn__svg" />
+                    <a href="https://opensea.io/collection/optinauts-v2" target="_blank">
+                      <img src="/svg/opensea.webp" alt="opensea nft marketplace" />
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <img src="/svg/portal.svg" alt="" className="fn__svg" />
+                    <a href="https://qx.app/collection/optinauts" target="_blank">
+                      <img src="/svg/qx.webp" alt="qx nft marketplace" />
                     </a>
                   </li>
                 </ul>
@@ -159,150 +182,6 @@ const Nft = ({ getSingleNft, nft, getNfts, nfts }) => {
             </div>
           </div>
           {/* !Mint Top */}
-          {/* Mint Box */}
-          <div className="metaportal_fn_mintbox">
-            <div className="mint_left">
-              <div className="mint_title">
-                <span>Public Mint is Live</span>
-              </div>
-              <div className="mint_list">
-                <ul>
-                  <li>
-                    <div className="item">
-                      <h4>Price</h4>
-                      <h3>{nft && nft.price} ETH</h3>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="item">
-                      <h4>Remaining</h4>
-                      <h3>344/999</h3>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="item">
-                      <h4>Quantity</h4>
-                      <div className="qnt">
-                        <span
-                          className="decrease"
-                          onClick={() => updateQuantity("-")}
-                        >
-                          -
-                        </span>
-                        <span className="summ" data-price={nft && nft.quantity}>
-                          {nft && nft.quantity}
-                        </span>
-                        <span
-                          className="increase"
-                          onClick={() => updateQuantity("+")}
-                        >
-                          +
-                        </span>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="item">
-                      <h4>Total Price</h4>
-                      <h3>
-                        {nft && (
-                          <span className="total_price">
-                            {(Number(nft.price) * Number(nft.quantity)).toFixed(
-                              2
-                            )}
-                          </span>
-                        )}
-                        ETH + GAS
-                      </h3>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div className="mint_desc">
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="metaportal_fn_button"
-                >
-                  <span>Mint Now</span>
-                </a>
-                <p>
-                  By clicking “MINT NOW” button, you agree to our{" "}
-                  <a href="#">Terms of Service</a> and our{" "}
-                  <a href="#">Privacy Policy</a>.
-                </p>
-              </div>
-            </div>
-            <div className="mint_right">
-              <div className="mright">
-                <div className="mint_time">
-                  <h4>Public Mint Ends In</h4>
-                  {/* 
-      There is two types of countdown: due_date (Due Date), ever (Evergreen timer)
-       1. 	data-type="due_date"
-        In this case you have to change value of data-date. For example:
-        data-date="October 13, 2022 12:30:00"
-        It will mean that mint will finished at this time
-
-       2. 	data-type="ever"
-        In this case you have to change values of data-days, data-hours, data-minutes and data-seconds. For example:
-        data-days="34"
-        data-hours="10"
-        data-minutes="20"
-        data-seconds="0"
-        It will mean that the time expires after this time, but when the page is refreshed, the value will return again. It means, it won't end.
-     */}
-                  <h3
-                    className="metaportal_fn_countdown"
-                    data-type="ever"
-                    data-date="October 13, 2022 12:30:00"
-                    data-days={34}
-                    data-hours={10}
-                    data-minutes={20}
-                    data-seconds={0}
-                  >
-                    0d: 0h: 0m: 0s
-                  </h3>
-                </div>
-                <div className="mint_checked">
-                  <p>
-                    <span className="text">Whitelist:</span>
-                    <span className="status">
-                      Soldout{" "}
-                      <span className="icon">
-                        <img
-                          src="/svg/checked.svg"
-                          alt=""
-                          className="fn__svg"
-                        />
-                      </span>
-                    </span>
-                  </p>
-                  <p>
-                    <span className="text">Presale:</span>
-                    <span className="status">
-                      Soldout{" "}
-                      <span className="icon">
-                        <img
-                          src="/svg/checked.svg"
-                          alt=""
-                          className="fn__svg"
-                        />
-                      </span>
-                    </span>
-                  </p>
-                </div>
-                <div className="mint_info">
-                  <p>
-                    You need to pay a GAS fee during minting. We allow max 5
-                    mints per wallet.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* !Mint Box */}
         </div>
       </div>
     </Layout>

@@ -30,13 +30,13 @@ const Layout = ({ children, pageTitle }) => {
       <PreLoader />
       {/* !Preloader */}
       {/* Left Navigation */}
-      <Navigation />
+      {/* <Navigation /> */}
       {/* !Left Navigation */}
       {/* Searchbox Popup */}
-      <Searchbox />
+      {/* <Searchbox /> */}
       {/* !Searchbox Popup */}
       {/* Wallet Popup */}
-      <WalletPopUp />
+      {/* <WalletPopUp /> */}
       {/* !Wallet Popup */}
       {/* Main */}
       <div className="metaportal_fn_main">
