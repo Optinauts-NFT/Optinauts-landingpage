@@ -2,67 +2,13 @@ import Link from "next/link";
 import { Fragment, useState } from "react";
 import { connect } from "react-redux";
 import { navigationToggle, walletToggle } from "../redux/actions/siteSettings";
+import { ConnectButton } from '@rainbow-me/rainbowkit';
+
 const MobileNavigation = ({ walletToggle, navigationToggle }) => {
   const [toggle, setToggle] = useState(false);
   return (
     <Fragment>
       <div className="metaportal_fn_mobnav">
-        <div className="mob_top">
-          <div className="social_trigger">
-            <div className="trigger" onClick={() => navigationToggle(true)}>
-              <span />
-            </div>
-            <div className="social">
-              <ul>
-                <li>
-                  <a
-                    href="https://www.facebook.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Fb.
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.twitter.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Tw.
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    In.
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Ln.
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="wallet">
-            <a
-              href="#"
-              className="metaportal_fn_button wallet_opener"
-              onClick={() => walletToggle(true)}
-            >
-              <span>Wallet</span>
-            </a>
-          </div>
-        </div>
         <div className="mob_mid">
           <div className="logo">
             <Link href="/">
@@ -70,6 +16,9 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
                 <img src="/img/logo.png" alt="" />
               </a>
             </Link>
+          </div>
+          <div className="wallet">
+            <ConnectButton />
           </div>
           <div
             className={`trigger ${toggle ? "active" : ""}`}
@@ -81,29 +30,14 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
         <div className="mob_bot" style={{ display: toggle ? "block" : "none" }}>
           <ul>
             <li>
-              <a className="creative_link" href="#home">
-                Home
-              </a>
+              <Link href="/" className="creative_link">
+                <a className="creative_link">Home</a>
+              </Link>
             </li>
             <li>
-              <a className="creative_link" href="#about">
-                About
-              </a>
-            </li>
-            <li>
-              <a className="creative_link" href="#collection">
-                Collection
-              </a>
-            </li>
-            <li>
-              <a className="creative_link" href="#news">
-                Blog
-              </a>
-            </li>
-            <li>
-              <a className="creative_link" href="#contact">
-                Contact
-              </a>
+              <Link href="/nft">
+                <a className="creative_link">Mint page</a>
+              </Link>
             </li>
           </ul>
         </div>

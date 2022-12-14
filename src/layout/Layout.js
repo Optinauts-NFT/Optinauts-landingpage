@@ -28,17 +28,6 @@ const Layout = ({ children, pageTitle }) => {
       <ImageView />
       <VideoPopup />
       <PreLoader />
-      {/* !Preloader */}
-      {/* Left Navigation */}
-      {/* <Navigation /> */}
-      {/* !Left Navigation */}
-      {/* Searchbox Popup */}
-      {/* <Searchbox /> */}
-      {/* !Searchbox Popup */}
-      {/* Wallet Popup */}
-      {/* <WalletPopUp /> */}
-      {/* !Wallet Popup */}
-      {/* Main */}
       <div className="metaportal_fn_main">
         {/* Mobile Navigation */}
         <MobileNavigation />

@@ -3,6 +3,34 @@ import { Provider } from "react-redux";
 import store from "../src/redux/store";
 import "../styles/globals.css";
 
+import '@rainbow-me/rainbowkit/styles.css';
+import {
+  getDefaultWallets,
+  RainbowKitProvider,
+  darkTheme
+} from '@rainbow-me/rainbowkit';
+import { configureChains, createClient, WagmiConfig } from 'wagmi';
+import { optimism } from 'wagmi/chains';
+import { publicProvider } from 'wagmi/providers/public';
+
+const { chains, provider } = configureChains(
+  [optimism],
+  [
+    publicProvider()
+  ]
+);
+
+const { connectors } = getDefaultWallets({
+  appName: 'My RainbowKit App',
+  chains
+});
+
+const wagmiClient = createClient({
+  autoConnect: true,
+  connectors,
+  provider
+})
+
 function MyApp({ Component, pageProps }) {
   return (
     <Provider store={store}>
@@ -32,7 +60,11 @@ function MyApp({ Component, pageProps }) {
         />
         <link type="text/css" rel="stylesheet" href="/css/style.css?ver=4.1" />
       </Head>
-      <Component {...pageProps} />
+      <WagmiConfig client={wagmiClient}>
+          <RainbowKitProvider chains={chains} theme={darkTheme()} showRecentTransactions={true}>
+            <Component {...pageProps} />
+          </RainbowKitProvider>
+      </WagmiConfig>
     </Provider>
   );
 }
