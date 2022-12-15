@@ -1,4 +1,3 @@
-import Link from "next/link";
 const About = () => {
   return (
     <section id="about">
@@ -88,11 +87,9 @@ const About = () => {
               (Amazing, underrated artist that is done a lot of art for me in the past like project covers & characters usually around a space).
               </p>
             </div>
-            <Link href="/nft">
-              <a className="metaportal_fn_button">
+              <a href="/nft" className="metaportal_fn_button">
                 <span>Mint now!!!</span>
               </a>
-            </Link>
           </div>
           <div className="right_part">
             {/* Steps Shortcode */}

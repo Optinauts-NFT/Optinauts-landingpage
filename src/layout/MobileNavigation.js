@@ -30,14 +30,10 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
         <div className="mob_bot" style={{ display: toggle ? "block" : "none" }}>
           <ul>
             <li>
-              <Link href="/" className="creative_link">
-                <a className="creative_link">Home</a>
-              </Link>
+              <a href="/" className="creative_link">Home</a>
             </li>
             <li>
-              <Link href="/nft">
-                <a className="creative_link">Mint page</a>
-              </Link>
+              <a href="/nft" className="creative_link">Mint page</a>
             </li>
           </ul>
         </div>

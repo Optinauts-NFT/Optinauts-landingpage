@@ -1,4 +1,16 @@
 import Layout from "../src/layout/Layout";
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  TwitterShareButton,
+  TwitterIcon,
+  TelegramShareButton,
+  TelegramIcon,
+  RedditShareButton,
+  RedditIcon,
+  EmailShareButton,
+  EmailIcon
+} from 'next-share';
 
 function MintPlex() {
   return {__html:`
@@ -56,49 +68,41 @@ const Nft = () => {
                 <h5 className="label">Share:</h5>
                 <ul>
                   <li>
-                    <a href="#">
-                      <img
-                        src="/svg/social/twitter-1.svg"
-                        alt=""
-                        className="fn__svg"
-                      />
-                    </a>
+                    <TwitterShareButton
+                      title={'MINTING NOW 3000 Nauts, pioneering exploration of DeFi protocols on Optimism L2.🔴 '}
+                    >
+                      <TwitterIcon size={32} round />
+                    </TwitterShareButton>
                   </li>
                   <li>
-                    <a href="#">
-                      <img
-                        src="/svg/social/facebook-1.svg"
-                        alt=""
-                        className="fn__svg"
-                      />
-                    </a>
+                    <FacebookShareButton
+                        quote={'MINTING NOW 3000 Nauts, pioneering exploration of DeFi protocols on Optimism L2.🔴'}
+                        hashtag={'#optinauts'}
+                        >
+                      <FacebookIcon size={32} round />
+                    </FacebookShareButton>
                   </li>
                   <li>
-                    <a href="#">
-                      <img
-                        src="/svg/social/instagram-1.svg"
-                        alt=""
-                        className="fn__svg"
-                      />
-                    </a>
+                    <TelegramShareButton
+                      title={'MINTING NOW 3000 Nauts, pioneering exploration of DeFi protocols on Optimism L2.🔴'}
+                    >
+                      <TelegramIcon size={32} round />
+                    </TelegramShareButton>
                   </li>
                   <li>
-                    <a href="#">
-                      <img
-                        src="/svg/social/pinterest-1.svg"
-                        alt=""
-                        className="fn__svg"
-                      />
-                    </a>
+                    <RedditShareButton
+                      title={'MINTING NOW 3000 Nauts, pioneering exploration of DeFi protocols on Optimism L2.🔴'}
+                      >
+                      <RedditIcon size={32} round />
+                    </RedditShareButton>
                   </li>
                   <li>
-                    <a href="#">
-                      <img
-                        src="/svg/social/behance-1.svg"
-                        alt=""
-                        className="fn__svg"
-                      />
-                    </a>
+                    <EmailShareButton
+                      subject={'MINTING NOW 3000 Nauts, pioneering exploration of DeFi protocols on Optimism L2.🔴'}
+                      body="MINTING NOW 3000 Nauts, pioneering exploration of DeFi protocols on Optimism L2.🔴"
+                    >
+                      <EmailIcon size={32} round />
+                    </EmailShareButton>
                   </li>
                 </ul>
               </div>

@@ -5,7 +5,7 @@ import { navigationToggle, walletToggle } from "../redux/actions/siteSettings";
 import { stickyNav } from "../utilits";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
-const Header = ({ walletToggle }) => {
+const Header = () => {
   useEffect(() => {
     stickyNav();
   }, []);
@@ -26,14 +26,10 @@ const Header = ({ walletToggle }) => {
           <div className="nav" style={{ opacity: 1 }}>
             <ul>
               <li>
-                <Link href="/">
-                  <a className="creative_link">Home</a>
-                </Link>
+                <a href="/" className="creative_link">Home</a>
               </li>
               <li>
-                <Link href="/nft">
-                  <a className="creative_link">Mint page</a>
-                </Link>
+                <a href="/nft" className="creative_link">Mint page</a>
               </li>
             </ul>
           </div>

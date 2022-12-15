@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 const Team = () => {
 
   const nfts = [
@@ -55,9 +53,6 @@ const Team = () => {
                         <div className="nft__item">
                           <div className="img_holder">
                             <img src={nft.image} alt="" />
-                            <Link href={`/nft/${nft.id}`}>
-                              <a className="full_link" />
-                            </Link>
                           </div>
                           <div className="title_holder">
                             <h3 className="fn_desc">
