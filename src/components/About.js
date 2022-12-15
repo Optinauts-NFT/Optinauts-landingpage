@@ -40,14 +40,24 @@ const About = () => {
               while solving dilemmas with onboarding through the attractiveness of a welcoming community, web3 & NFTs.
               </p>
             </div>
-            <a
-              href="https://discord.com/"
-              className="metaportal_fn_button"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <span>Find us On Discord</span>
-            </a>
+            <div style={{display:"inline-flex", gap: "1rem"}}>
+              <a
+                href="https://discord.gg/taVBmCTrbH"
+                className="metaportal_fn_button"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>Find us On Discord</span>
+              </a>
+              <a
+                href="https://twitter.com/defideclassify"
+                className="metaportal_fn_button"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span>Find us On Twitter</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -78,9 +88,9 @@ const About = () => {
               (Amazing, underrated artist that is done a lot of art for me in the past like project covers & characters usually around a space).
               </p>
             </div>
-            <Link href="/nft-single">
+            <Link href="/nft">
               <a className="metaportal_fn_button">
-                <span>How to Mint</span>
+                <span>Mint now!!!</span>
               </a>
             </Link>
           </div>
@@ -124,7 +134,7 @@ const About = () => {
             </div>
             {/* !Steps Shortcode */}
             {/* Video Shortcode */}
-            <div className="fn_cs_video">
+            {/* <div className="fn_cs_video">
               <img src="/img/video/1.jpg" alt="" />
               <a
                 className="popup-youtube"
@@ -132,7 +142,7 @@ const About = () => {
               >
                 <img src="/svg/play.svg" alt="" className="fn__svg" />
               </a>
-            </div>
+            </div> */}
             {/* /Video Shortcode */}
           </div>
         </div>

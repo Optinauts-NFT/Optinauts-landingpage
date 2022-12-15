@@ -6,6 +6,8 @@ import HeroSlider from "../src/components/HeroSlider";
 import RoadMapSlider from "../src/components/RoadMapStep";
 import SectionDivider from "../src/components/SectionDivider";
 import Layout from "../src/layout/Layout";
+import Team from "../src/components/Team";
+
 const Index = () => {
   return (
     <Layout pageTitle={"Home"}>
@@ -13,7 +15,7 @@ const Index = () => {
       <HeroSlider />
       {/* !Home Section */}
       {/* Fun Facts */}
-      <FunFacts />
+      {/* <FunFacts /> */}
       {/* !Fun Facts */}
       {/* About Section */}
       <About />
@@ -26,12 +28,13 @@ const Index = () => {
       {/* !Collection Section */}
       {/* Section Divider */}
       <SectionDivider />
+      <Team />
       {/* !Section Divider */}
       {/* Section RoadMap */}
-      <RoadMapSlider />
+      {/* <RoadMapSlider /> */}
       {/* !Section RoadMap */}
       {/* Section Divider */}
-      <SectionDivider />
+      {/* <SectionDivider /> */}
       {/* !Section Divider */}
       {/* Section News */}
       {/* <News /> */}
@@ -40,7 +43,7 @@ const Index = () => {
       {/* <SectionDivider /> */}
       {/* !Section Divider */}
       {/* Section */}
-      <Contact />
+      {/* <Contact /> */}
     </Layout>
   );
 };

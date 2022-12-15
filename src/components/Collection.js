@@ -153,11 +153,11 @@ const Collection = () => {
           <p>
           3000 Nauts, pioneering exploration of DeFi protocols on Optimism L2.🔴 35% PGF
           </p>
-          <Link href="/collection">
+          {/* <Link href="/collection">
             <a className="metaportal_fn_button">
               <span>See All Collection</span>
             </a>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>

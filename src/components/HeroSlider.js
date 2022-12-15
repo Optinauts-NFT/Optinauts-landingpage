@@ -154,12 +154,6 @@ const HeroSlider = () => {
               <li className="next" data-index={3}>
                 <div className="item has_video">
                   <img src="/img/1x1.jpg" alt="" />
-                  <a
-                    className="popup-youtube metaportal_fn_videobutton"
-                    href="https://www.youtube.com/embed/7e90gBu4pas"
-                  >
-                    <img src="/svg/play.svg" alt="" className="fn__svg" />
-                  </a>
                   <div className="item_in">
                     <div className="img" data-bg-img="/img/slider/3.webp" />
                   </div>
@@ -223,14 +217,24 @@ const HeroSlider = () => {
           3000 Nauts, pioneering exploration of DeFi protocols on Optimism L2.🔴 
           35% PGF
           </p>
-          <a
-            href="https://opensea.io/"
-            className="metaportal_fn_button"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span>Buy On Opensea</span>
-          </a>
+          <div style={{display:"inline-flex", gap: "1rem"}}>
+            <a
+              href="https://opensea.io/collection/optinauts-v2"
+              className="metaportal_fn_button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>Available on Opensea</span>
+            </a>
+            <a
+              href="https://qx.app/collection/optinauts"
+              className="metaportal_fn_button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>Available on Quix</span>
+            </a>
+          </div>
         </div>
         {/* !Description */}
       </div>

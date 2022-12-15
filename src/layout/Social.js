@@ -6,34 +6,16 @@ const Social = () => {
         <ul>
           <li>
             <a
-              href="https://www.facebook.com/"
+              href="https://discord.gg/taVBmCTrbH"
               target="_blank"
               rel="noreferrer"
             >
-              Fb.
+              Discord.
             </a>
           </li>
           <li>
-            <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
-              Tw.
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              In.
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Ln.
+            <a href="https://twitter.com/defideclassify" target="_blank" rel="noreferrer">
+              Twitter.
             </a>
           </li>
         </ul>
