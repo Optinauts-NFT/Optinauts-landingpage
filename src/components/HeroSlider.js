@@ -219,7 +219,7 @@ const HeroSlider = () => {
           </p>
           <div style={{display:"inline-flex", gap: "1rem"}}>
             <a
-              href="https://opensea.io/collection/optinauts-v2"
+              href="https://opensea.io/collection/optinauts-op"
               className="metaportal_fn_button"
               target="_blank"
               rel="noreferrer"

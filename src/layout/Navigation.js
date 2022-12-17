@@ -24,7 +24,7 @@ const Navigation = ({ navigation, navigationToggle }) => {
               <li>
                 <div className="item">
                   <a
-                    href="https://opensea.io/"
+                    href="https://opensea.io/collection/optinauts-op"
                     target="_blank"
                     rel="noreferrer"
                   />

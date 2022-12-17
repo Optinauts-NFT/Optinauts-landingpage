@@ -265,7 +265,7 @@ export const About2 = () => (
           </p>
           <div className="buttons">
             <a
-              href="https://opensea.io/"
+              href="https://opensea.io/collection/optinauts-op"
               className="metaportal_fn_button"
               target="_blank"
               rel="noreferrer"

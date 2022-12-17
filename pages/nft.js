@@ -137,7 +137,7 @@ const Nft = () => {
                     <span>View On:</span>
                   </li>
                   <li>
-                    <a href="https://opensea.io/collection/optinauts-v2" target="_blank" rel="noreferrer">
+                    <a href="https://opensea.io/collection/optinauts-op" target="_blank" rel="noreferrer">
                       <img src="/svg/opensea.webp" alt="opensea nft marketplace" />
                     </a>
                   </li>
