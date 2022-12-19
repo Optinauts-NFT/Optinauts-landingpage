@@ -10,3 +10,21 @@ The inspiration of the name OptiNauts came from the art, love for sci-fi and a s
 I am very big on participation and self-custody. I also dont promote trading or unhealthy habits. I want to educate users about why crypto and blockchain are here and the use-cases/possibilities they provide as well as how to participate safely and responsibly, starting with wallet security. I always wanted to start my own project, waited for a good enough reason and felt @optimismFND to be a great match in terms of the Public Goods philosophy and incentives around the ecosystem.
 
 I collaborated w/ @MareMartian on the artwork. (Amazing, underrated artist that is done a lot of art for me in the past like project covers & characters usually around a space).
+
+## OFFICIAL LINKS ☑️ 
+
+MINT: https://defideclassified.net/nft
+
+Website: https://defideclassified.net/
+
+Secondary Markets/Trade  
+Quix: https://qx.app/collection/optinauts 
+
+⛵ OpenSea: https://opensea.io/collection/optinauts-op 
+
+Social/Community
+📌 Twitter: https://twitter.com/defideclassify
+
+📌 Discord: https://discord.gg/taVBmCTrbH
+
+📌 Quest3: https://app.quest3.xyz/optinauts 
