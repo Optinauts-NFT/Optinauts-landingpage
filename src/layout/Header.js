@@ -1,7 +1,5 @@
 import Link from "next/link";
 import { useEffect } from "react";
-import { connect } from "react-redux";
-import { navigationToggle, walletToggle } from "../redux/actions/siteSettings";
 import { stickyNav } from "../utilits";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
@@ -42,8 +40,4 @@ const Header = () => {
   );
 };
 
-const mapStateToProps = (state) => ({});
-
-export default connect(mapStateToProps, { walletToggle, navigationToggle })(
-  Header
-);
+export default Header;

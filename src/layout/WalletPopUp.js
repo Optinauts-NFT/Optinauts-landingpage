@@ -1,6 +1,5 @@
 import { Fragment } from "react";
-import { connect } from "react-redux";
-import { walletToggle } from "../redux/actions/siteSettings";
+
 const WalletPopUp = ({ walletToggle, wallet }) => {
   return (
     <Fragment>
@@ -66,8 +65,4 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
   );
 };
 
-const mapStateToProps = (state) => ({
-  wallet: state.site.wallet,
-});
-
-export default connect(mapStateToProps, { walletToggle })(WalletPopUp);
+export default WalletPopUp;

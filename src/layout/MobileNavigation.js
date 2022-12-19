@@ -1,7 +1,5 @@
 import Link from "next/link";
 import { Fragment, useState } from "react";
-import { connect } from "react-redux";
-import { navigationToggle, walletToggle } from "../redux/actions/siteSettings";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 const MobileNavigation = ({ walletToggle, navigationToggle }) => {
@@ -42,10 +40,4 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
   );
 };
 
-const mapStateToProps = (state) => ({
-  navigation: state.site.navigation,
-});
-
-export default connect(mapStateToProps, { walletToggle, navigationToggle })(
-  MobileNavigation
-);
+export default MobileNavigation;

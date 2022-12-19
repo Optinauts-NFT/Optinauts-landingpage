@@ -1,5 +1,3 @@
-import { connect } from "react-redux";
-import { searchToggle } from "../redux/actions/siteSettings";
 const SearchButton = ({ searchToggle }) => {
   return (
     <a
@@ -16,4 +14,4 @@ const SearchButton = ({ searchToggle }) => {
     </a>
   );
 };
-export default connect(null, { searchToggle })(SearchButton);
+export default SearchButton;

@@ -1,7 +1,5 @@
 import Link from "next/link";
 import { Fragment, useState } from "react";
-import { connect } from "react-redux";
-import { navigationToggle } from "../redux/actions/siteSettings";
 const Navigation = ({ navigation, navigationToggle }) => {
   const [subMenu, setSubMenu] = useState(null);
   return (
@@ -320,7 +318,4 @@ const Navigation = ({ navigation, navigationToggle }) => {
   );
 };
 
-const mapStateToProps = (state) => ({
-  navigation: state.site.navigation,
-});
-export default connect(mapStateToProps, { navigationToggle })(Navigation);
+export default Navigation;

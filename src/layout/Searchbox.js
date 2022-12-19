@@ -1,6 +1,5 @@
 import { Fragment } from "react";
-import { connect } from "react-redux";
-import { searchToggle } from "../redux/actions/siteSettings";
+
 const Searchbox = ({ searchToggle, search }) => {
   return (
     <Fragment>
@@ -21,8 +20,5 @@ const Searchbox = ({ searchToggle, search }) => {
     </Fragment>
   );
 };
-const mapStateToProps = (state) => ({
-  search: state.site.search,
-});
 
-export default connect(mapStateToProps, { searchToggle })(Searchbox);
+export default Searchbox;

@@ -1,6 +1,7 @@
 {
-  "name": "meta-portal-react",
+  "name": "optinauts-landingpage",
   "version": "0.1.0",
+  "author": "Jason Factor",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -18,13 +19,9 @@
     "react": "18.2.0",
     "react-countup": "^6.3.2",
     "react-dom": "18.2.0",
-    "react-redux": "^8.0.5",
     "react-tsparticles": "^2.3.3",
     "react-visibility-sensor": "^5.1.1",
     "react-water-wave": "^2.0.1",
-    "redux": "^4.2.0",
-    "redux-devtools-extension": "^2.13.9",
-    "redux-thunk": "^2.4.1",
     "swiper": "^8.4.4",
     "tsparticles": "^2.3.4",
     "wagmi": "^0.9.2"
