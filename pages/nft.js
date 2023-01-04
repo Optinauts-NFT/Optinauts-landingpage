@@ -15,10 +15,10 @@ import {
 function MintPlex() {
   return {__html:`
   <div 
-    id='rampp-minting-container-ceefa49d-c6dc-4e99-aecf-cccdfb12205b' 
+    id='rampp-minting-container-24acfb24-586b-4857-8022-8dee87482e89' 
     class='rampp-minting-container'>
     <button
-      id='rampp-minting-button-ceefa49d-c6dc-4e99-aecf-cccdfb12205b'
+      id='rampp-minting-button-24acfb24-586b-4857-8022-8dee87482e89'
       class='rampp-minting-button' 
       style='display:none'
       data-merkle-proof-uri='https://us-central1-nft-rampp.cloudfunctions.net/allowlist/YfJU183fMDSD420PZwxL/merkle/verify'
@@ -39,8 +39,7 @@ function MintPlex() {
     <script type="text/javascript" src="https://unpkg.com/web3modal@1.9.8/dist/index.js"></script>
     <script type="text/javascript" src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"></script>
     <script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@1.7.8/dist/umd/index.min.js"></script>
-    
-    <script type='text/javascript' src="https://mintplex.xyz/embeds/v2.1/embed.js" data-uuid='ceefa49d-c6dc-4e99-aecf-cccdfb12205b'></script>  
+    <script type='text/javascript' src="https://mintplex.xyz/embeds/v2.1/embed.js" data-uuid='24acfb24-586b-4857-8022-8dee87482e89'></script>  
   `};
 }
 
