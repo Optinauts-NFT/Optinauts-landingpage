@@ -1,6 +1,11 @@
 # Optinauts-landingpage
 3000 Nauts, pioneering exploration of DeFi protocols on Optimism L2.🔴  35% PGF
 
+## Valist
+Project: https://app.valist.io/devfactor/optinauts. 
+
+IPFS link: https://gateway.valist.io/ipfs/bafybeihtfqswr26erawjioxhrxfheocnv2y4nli7wnutqsafij3bbtop5m/. 
+
 ## Story
 The OptiNauts are an NFT collection on Optimism L2, focused around onboarding and educating DeFi & Web3 to new and existing users. We will be launching a learn2earn quiz along with other incentivized quests to ready our community to participate. This is just one of many examples of utility to provide to our holders & community.
 
